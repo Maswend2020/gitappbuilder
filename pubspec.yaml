@@ -43,7 +43,7 @@ dependencies:
   crypto: ^3.0.2
   permission_handler: ^9.2.0
  # modal_bottom_sheet: ^2.0.1
-  modal_bottom_sheet: ^2.1.2
+  modal_bottom_sheet: ^3.0.0
 dev_dependencies:
   flutter_test:
     sdk: flutter
