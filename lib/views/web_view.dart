@@ -85,9 +85,9 @@ class _WebViewState extends State<WebView> {
     initPullToRefresh();
     super.initState();
     Connectivity().onConnectivityChanged.listen((ConnectivityResult result) {
-          debugPrint("Change network connection status");
-          changeConnectionStatus(result);
-        } as void Function(List<ConnectivityResult> event)?);
+      debugPrint("Change network connection status");
+      changeConnectionStatus(result);
+    });
     _bindBackgroundIsolate();
     _getAccess();
   }
@@ -144,12 +144,12 @@ class _WebViewState extends State<WebView> {
 
   void initWebViewCollections() {
     if (Config.appTemplate == Template.tabs) {
-      List<NavigationItem> items = Config.mainNavigation;
+      List<NavigationItem> _items = Config.mainNavigation;
       webViewsCollections = [
-        for (var i = 0; i < items.length; i++)
-          if (items[i].type == ActionType.internal)
+        for (var i = 0; i < _items.length; i++)
+          if (_items[i].type == ActionType.internal)
             WebViewCollection(
-                url: items[i].value.toString(),
+                url: _items[i].value.toString(),
                 isLoading: true,
                 title: Config.appName,
                 error: false)
@@ -202,9 +202,9 @@ class _WebViewState extends State<WebView> {
       );
       return;
     }
-    List<NavigationItem> items = Config.mainNavigation;
-    for (var i = 0; i < items.length; i++) {
-      if (items[i].type == ActionType.internal) {
+    List<NavigationItem> _items = Config.mainNavigation;
+    for (var i = 0; i < _items.length; i++) {
+      if (_items[i].type == ActionType.internal) {
         webViewsCollections[i].pullToRefreshController =
             PullToRefreshController(
           options: PullToRefreshOptions(
@@ -256,7 +256,7 @@ class _WebViewState extends State<WebView> {
   void injectCss(index) {
     String styles = "";
     for (var item in Config.cssHideBlock) {
-      styles = "$styles$item{ display: none; }";
+      styles = styles + item + "{ display: none; }";
     }
     webViewsCollections[index]
         .webExplorerController
@@ -479,16 +479,16 @@ class _WebViewState extends State<WebView> {
           onDownloadStart: (controller, url) async {
             checkStoragePermission().then((hasGranted) async {
               if (hasGranted == true) {
-                String localPath;
+                String _localPath;
                 if (Platform.isIOS) {
-                  localPath =
+                  _localPath =
                       await getApplicationDocumentsDirectory() as String;
                 } else {
-                  localPath = '/storage/emulated/0/Download';
+                  _localPath = '/storage/emulated/0/Download';
                 }
                 await FlutterDownloader.enqueue(
                   url: url.toString(),
-                  savedDir: localPath,
+                  savedDir: _localPath,
                   showNotification: true,
                   openFileFromNotification: true,
                   requiresStorageNotLow: true,

@@ -26,12 +26,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "charcode",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/charcode-1.3.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "clock",
       "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/clock-1.1.1",
       "packageUri": "lib/",
@@ -45,15 +39,39 @@
     },
     {
       "name": "connectivity_plus",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus-6.0.1",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus-2.3.9",
       "packageUri": "lib/",
-      "languageVersion": "3.2"
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "connectivity_plus_linux",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus_linux-1.3.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "connectivity_plus_macos",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus_macos-1.2.6",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "connectivity_plus_platform_interface",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus_platform_interface-2.0.0",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus_platform_interface-1.2.4",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "connectivity_plus_web",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus_web-1.2.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "connectivity_plus_windows",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/connectivity_plus_windows-1.2.2",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "cross_file",
@@ -93,9 +111,9 @@
     },
     {
       "name": "file",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/file-7.0.0",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/file-6.1.4",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.12"
     },
     {
       "name": "fixnum",
@@ -123,15 +141,15 @@
     },
     {
       "name": "flutter_lints",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-3.0.1",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_lints-1.0.4",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.12"
     },
     {
       "name": "flutter_svg",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_svg-2.0.10+1",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/flutter_svg-1.1.6",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "2.17"
     },
     {
       "name": "flutter_test",
@@ -146,18 +164,6 @@
       "languageVersion": "3.2"
     },
     {
-      "name": "http",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/http-1.2.0",
-      "packageUri": "lib/",
-      "languageVersion": "3.2"
-    },
-    {
-      "name": "http_parser",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/http_parser-4.0.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.12"
-    },
-    {
       "name": "intl",
       "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/intl-0.18.1",
       "packageUri": "lib/",
@@ -165,9 +171,9 @@
     },
     {
       "name": "js",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.7.1",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/js-0.6.7",
       "packageUri": "lib/",
-      "languageVersion": "3.1"
+      "languageVersion": "2.19"
     },
     {
       "name": "leak_tracker",
@@ -183,9 +189,9 @@
     },
     {
       "name": "lints",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/lints-3.0.0",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/lints-1.0.1",
       "packageUri": "lib/",
-      "languageVersion": "3.0"
+      "languageVersion": "2.12"
     },
     {
       "name": "matcher",
@@ -213,7 +219,7 @@
     },
     {
       "name": "modal_bottom_sheet",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/modal_bottom_sheet-3.0.0-pre",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/modal_bottom_sheet-2.1.2",
       "packageUri": "lib/",
       "languageVersion": "2.17"
     },
@@ -225,13 +231,19 @@
     },
     {
       "name": "onesignal_flutter",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/onesignal_flutter-5.1.3",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/onesignal_flutter-3.5.2",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
     {
       "name": "path",
       "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/path-1.8.3",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "path_drawing",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/path_drawing-1.0.1",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -279,37 +291,31 @@
     },
     {
       "name": "permission_handler",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler-11.3.0",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler-9.2.0",
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "permission_handler_android",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler_android-12.0.5",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler_android-9.0.2+1",
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
       "name": "permission_handler_apple",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler_apple-9.4.2",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler_apple-9.1.4",
       "packageUri": "lib/",
       "languageVersion": "2.15"
     },
     {
-      "name": "permission_handler_html",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler_html-0.1.1",
-      "packageUri": "lib/",
-      "languageVersion": "3.0"
-    },
-    {
       "name": "permission_handler_platform_interface",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler_platform_interface-4.2.0",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler_platform_interface-3.12.0",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "permission_handler_windows",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler_windows-0.2.1",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/permission_handler_windows-0.1.3",
       "packageUri": "lib/",
       "languageVersion": "2.12"
     },
@@ -333,15 +339,39 @@
     },
     {
       "name": "share_plus",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/share_plus-7.2.2",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/share_plus-4.5.3",
       "packageUri": "lib/",
-      "languageVersion": "2.18"
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "share_plus_linux",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/share_plus_linux-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "share_plus_macos",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/share_plus_macos-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "share_plus_platform_interface",
       "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/share_plus_platform_interface-3.4.0",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "share_plus_web",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/share_plus_web-3.1.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
+      "name": "share_plus_windows",
+      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/share_plus_windows-3.0.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "sky_engine",
@@ -452,24 +482,6 @@
       "languageVersion": "3.0"
     },
     {
-      "name": "vector_graphics",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics-1.1.11+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "vector_graphics_codec",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_codec-1.1.11+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
-      "name": "vector_graphics_compiler",
-      "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/vector_graphics_compiler-1.1.11+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
       "name": "vector_math",
       "rootUri": "file:///C:/Users/Maswend/AppData/Local/Pub/Cache/hosted/pub.dev/vector_math-2.1.4",
       "packageUri": "lib/",
@@ -512,7 +524,7 @@
       "languageVersion": "2.16"
     }
   ],
-  "generated": "2024-03-23T03:51:43.824539Z",
+  "generated": "2024-03-23T04:30:49.043623Z",
   "generator": "pub",
   "generatorVersion": "3.3.0-102.0.dev"
 }
